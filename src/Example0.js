@@ -11,3 +11,4 @@ function useState(initialValue) {
 }
 var [foo, setFoo] = useState(0);
 console.log(foo());
+setFoo(1);
